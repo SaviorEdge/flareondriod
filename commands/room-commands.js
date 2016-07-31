@@ -5,7 +5,7 @@ exports.commands = {
         var text = "";
         if(a==="")
         {
-            text+="Salandit Server Commands: Rules | Shop";
+            text+="Salandit Commands: Rules | Shop";
         }
         else if(a==="rules")
         {
