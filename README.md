@@ -41,16 +41,16 @@ $ npm install --production
 ```
 If you want to use `npm test` for developement, install all dependencies with `npm install`
 
-To configure your bot, copy `config-example.js` to `config.js` and edit that file. You can specify bot login credentials among other things. If you don't specify credentials, the bot will log in a random username started by 'Bot'. Read the [Configuration Guide](https://github.com/Ecuacion/Pokemon-Showdown-Node-Bot/blob/master/CONFIGGUIDE.md) for more information
+To configure your bot, copy `config-example.js` to `config.js` and edit that file. You can specify bot login credentials among other things. If you don't specify credentials, the bot will log in a random username started by 'Bot'.
 
 Now, to start the bot use:
 ```
 $ node bot
 ```
 
-if you have an old version of `Pokemon Showdown Node Bot` and you want to update it, you can use: 
+if you have an old version of 'Flareondriod` and you want to update it, you can use: 
 ```
-git pull https://github.com/Ecuacion/Pokemon-Showdown-Node-Bot.git
+git pull https://github.com/SaviorEdge/flareondriod.git
 ```
 Don't forget to use `npm install --production` after each update to re-install the outdated dependencies.
 
@@ -103,8 +103,10 @@ Check the [configuration guide](https://github.com/Ecuacion/Pokemon-Showdown-Nod
 
 Credits
 -----------
-
- - [Ecuacion](https://github.com/Ecuacion/) (Owner)
+Owner:
+ - [SaviorEdge] (https://github.com/SaviorEdge) (Current Owner)
+ 
+ - [Ecuacion](https://github.com/Ecuacion/) (Original Owner)
  
 Contributors:
 
