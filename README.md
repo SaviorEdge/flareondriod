@@ -105,18 +105,7 @@ Credits
 -----------
 Owner:
  - [SaviorEdge] (https://github.com/SaviorEdge) (Current Owner)
+Thanks too: 
+**AS I DONT OWN THIS AND MAKE SIMPLE EDITS TO IT FOR MY OWN PERSONAL JOY THIS IS THE ORIGINAL OWNER! ALL CREDITS GOES TO HIM**
+ - [Ecuacion](https://github.com/Ecuacion/) and his [amazing pokemon showdown node bot] (https://github.com/Ecuacion/Pokemon-Showdown-Node-Bot)
  
- - [Ecuacion](https://github.com/Ecuacion/) (Original Owner)
- 
-Contributors:
-
- - [Freigeist](https://github.com/Freigeist) (Languages/Translation feature and bug fixes)
- - [Irraquated](https://github.com/Irraquated) (Languages and bug fixes)
- - [panpawn](https://github.com/panpawn) (YouTube feature, fixes)
- - [Spudling](https://github.com/Spudling) (German translation)
-
-Part of this code is imported from other developments, so credits to:
-		
- - Quinella, [Morfent](https://github.com/Morfent) and [TalkTakesTime](https://github.com/TalkTakesTime) developers of [Pokemon-Showdown-Bot](https://github.com/TalkTakesTime/Pokemon-Showdown-Bot)
- - [Guangcong Luo](https://github.com/Zarel) and other contributors of [Pokemon Showdown](https://github.com/Zarel/Pokemon-Showdown)
-# flareondriod
