@@ -54,7 +54,7 @@ exports.autoReloginDelay = 60 * 1000;
 * Rooms to join
 */
 
-exports.rooms = 'all';
+exports.rooms = 'public';
 
 /*
 * exports.rooms = 'all'; //For joining all rooms
@@ -107,7 +107,7 @@ exports.globalPermissions = {
 * Commands configuration
 */
 
-exports.commandTokens = ['.']; //Array of valid command characters
+exports.commandTokens = ['.','z']; //Array of valid command characters
 
 exports.defaultPermission = '%';
 
