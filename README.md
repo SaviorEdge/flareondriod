@@ -105,7 +105,9 @@ Credits
 -----------
 Owner:
  - [SaviorEdge] (https://github.com/SaviorEdge) (Current Owner)
-Thanks too: 
+
+Special Thanks
+-----------
 **AS I DONT OWN THIS AND MAKE SIMPLE EDITS TO IT FOR MY OWN PERSONAL JOY THIS IS THE ORIGINAL OWNER! ALL CREDITS GOES TO HIM**
  - [Ecuacion](https://github.com/Ecuacion/) and his [amazing pokemon showdown node bot] (https://github.com/Ecuacion/Pokemon-Showdown-Node-Bot)
  
