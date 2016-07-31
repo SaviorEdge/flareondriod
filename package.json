@@ -1,9 +1,9 @@
 {
-  "name": "Flareondriod PS! Bot",
-  "version": "Version: 0.0.1",
+  "name": "flareondriod",
+  "version": "0.0.1",
   "author": {
-    "name": "Savior Edge",
-	"email": "savioredge11@gmail.com",
+    "name": "SaviorEdge",
+	"email": "",
 	"url": "https://github.com/SaviorEdge"
   },
   "scripts": {
@@ -45,6 +45,6 @@
     "githubhook": "^1.1.3",
     "readline-sync": "1.3.0"
   },
-  "description": "Flareondriod - PS! Bot",
+  "description": "Flareondriod",
   "homepage": "https://github.com/SaviorEdge/flareondriod"
-}
+}# flareondriod
