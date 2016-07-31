@@ -107,7 +107,7 @@ exports.globalPermissions = {
 * Commands configuration
 */
 
-exports.commandTokens = ['.','z']; //Array of valid command characters
+exports.commandTokens = ['.','z','Z']; //Array of valid command characters
 
 exports.defaultPermission = '%';
 
