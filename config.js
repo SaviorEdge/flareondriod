@@ -126,11 +126,11 @@ exports.permissionExceptions = {
 	'custom':'+'
 };
 
-exports.botguide = "https://github.com/Ecuacion/Pokemon-Showdown-Node-Bot/blob/master/commands/README.md | Use .cc for all of my (current) custom commands!";
+exports.botguide = "https://github.com/SaviorEdge/Flareondriod/blob/master/commands/README.md | Use .cc for all of my (current) custom commands!";
 
 //When you pm the bot but don't use a command, it replies you this message. Example: "Hi, I'm a bot. Use .help to view a command guide"
 //The var #USER is replaced with the username that pms it
-exports.pmhelp = "Hey #USER, I'm just a bot. If you need help you should pm a server authority! :3. Use .guide for the basic commands and .cc for custom commands (most of them I have too be leader, admin, or roomowner to use)!";
+exports.pmhelp = "Hey #USER, I'm just a bot. If you need help you should pm a server authority! :3. Use .guide for the basic commands and .cc for custom commands (most of them I have too be bot (the rank), leader, admin, or roomowner to use)!";
 
 /*
 * Language configuration
