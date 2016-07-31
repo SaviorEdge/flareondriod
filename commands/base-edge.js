@@ -112,7 +112,7 @@ exports.commands = {
 	},
 			flareon:'flareon',
 		flareon: function() {
-			this.restrictReply('!showimage http://orig10.deviantart.net/9d0a/f/2012/326/e/b/flareon_pokeball_by_samxwow-d5ltn8j.png, 1000, 900')
+			this.restrictReply('!showimage http://orig10.deviantart.net/9d0a/f/2012/326/e/b/flareon_pokeball_by_samxwow-d5ltn8j.png, 300, 250')
 	},
 			sans:'sans',
 		sans: function() {
