@@ -57,7 +57,7 @@ exports.commands = {
 		this.restrictReply('!showimage http://i0.kym-cdn.com/photos/images/original/001/102/474/a6c.jpeg, 300, 300')
 	},
 		pawwz:'pawwz',
-	kys: function() {
+	pawwz: function() {
 		this.restrictReply('/me abuses Pawwz'),
 		this.restrictReply('**Pawwz raged quit.**')
 	},
