@@ -78,7 +78,7 @@ exports.initCmds = ['|/avatar 211']; // Other commands (avatar, blockchallenges,
 */
 
 exports.exceptions = {
-	'digitaledge': true, 'savioredge': true, 'edgejs': true, 'havingfun98': true,'nope': true,'magentia':true,'lordbeerus35':true,
+	'digitaledge': true, 'savioredge': true, 'edgejs': true, 'havingfun98': true,'lostcause146': true,'magentia':true,'lordbeerus35':true,
 	// 'userid': true
 };
 
