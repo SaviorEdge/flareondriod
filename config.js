@@ -78,7 +78,7 @@ exports.initCmds = ['|/avatar 211']; // Other commands (avatar, blockchallenges,
 */
 
 exports.exceptions = {
-	'digitaledge': true, 'savioredge': true, 'edgejs': true, 'havingfun98': true,'lostcause146': false,'magentia':true,'lordbeerus35':true,
+	'digitaledge': true, 'savioredge': true, 'edgejs': true, 'havingfun98': true,'lostcause146': true,'magentia':true,'lordbeerus35':true,
 	// 'userid': true
 };
 
@@ -340,7 +340,7 @@ exports.leaderboards['tournaments'] = {
 */
 
 exports.youtube = {
-	enableByDefault: false
+	enableByDefault: true
 };
 
 /*
