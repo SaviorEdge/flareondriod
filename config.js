@@ -93,7 +93,7 @@ exports.exceptions = {
 *
 */
 
-exports.ranks = ['+', '\u2605', '%', '@', '#', '&', '~'];
+exports.ranks = ['+', '\u2605', '%', '@', '#', '&', '~','⚔'];
 
 exports.globalPermissions = {
 	'voice': '+', //Min rank to broadcast in a server
@@ -101,7 +101,8 @@ exports.globalPermissions = {
 	'driver': '%', //Min rank to mute. Also min staff rank
 	'moderator': '@', //Min rank to ban
 	'admin': '~' //Rank for using global admin commands
-};
+	'dragonowner': '⚔'//Rank for using global admin commands
+};/
 
 /*
 * Commands configuration
