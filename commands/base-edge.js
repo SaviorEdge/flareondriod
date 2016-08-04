@@ -149,5 +149,8 @@ exports.commands = {
 		if (!this.can('say')) return;
 		this.reply('!randpoke ' + Tools.stripCommands(arg))
 	},
+	cancer: function {
+		this.restrictReply('!htmlbox <img src="http://i.imgur.com/WPeazU8.gif" width="800" height="800">')
+	},
 	// dont worry http://hastebin.com/ciqoriyico.sm
 	};
