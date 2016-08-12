@@ -152,5 +152,15 @@ exports.commands = {
 	ripsyoureyes: function() {
 		this.restrictReply('!htmlbox <img src="http://i.imgur.com/WPeazU8.gif" width="800" height="800">')
 	},
+	summon: function (arg) {
+		if (!arg) return;
+		if (!this.can('say')) return;
+		this.reply('/a |j| ' + Tools.stripCommands(arg))
+	},
+	leave: function (arg) {
+		if (!arg) return;
+		if (!this.can('say')) return;
+		this.reply('/a |l| ' + Tools.stripCommands(arg))
+	},
 	// dont worry http://hastebin.com/ciqoriyico.sm
 	};
