@@ -173,5 +173,11 @@ exports.commands = {
 		this.reply(Tools.stripCommands(arg) + ' ' + Tools.stripCommands(arg) + Tools.stripCommands(arg) + ' ' + Tools.stripCommands(arg) + Tools.stripCommands(arg) + ' ' + Tools.stripCommands(arg) + Tools.stripCommands(arg) + ' ' + Tools.stripCommands(arg) + Tools.stripCommands(arg) + ' ' + Tools.stripCommands(arg) + Tools.stripCommands(arg) + ' ' + Tools.stripCommands(arg) + Tools.stripCommands(arg) + ' ' + Tools.stripCommands(arg) + Tools.stripCommands(arg) + ' ' + Tools.stripCommands(arg) + Tools.stripCommands(arg) + ' ' + Tools.stripCommands(arg) + Tools.stripCommands(arg) + ' ' + Tools.stripCommands(arg))
 		this.reply(Tools.stripCommands(arg) + ' u made me sad ;(')
 	},
+	jump: function () {
+		this.restrictReply('!showimage http://imgur.com/pxTJDj4.png, 300, 275')
+	},
+	btahb: function () {
+		this.restrictReply('!showimage http://i.imgur.com/Dz5dgJj.jpg, 300, 220')
+	}
 	// dont worry http://hastebin.com/ciqoriyico.sm
 	};
