@@ -185,8 +185,11 @@ exports.commands = {
 	dank: function () {
 		this.restrictReply('!showimage http://i.imgur.com/4I3f8Cs.jpg, 300, 260')
 	},
-	dankarambe: function () {
+	dankharambe: function () {
 		this.restrictReply('!showimage http://i.imgur.com/BieQzvS.jpg, 450, 500')
+	},
+	numel: function () {
+		this.restrictReply('!showimage http://i.imgur.com/Zx8ri4d.jpg, 525, 432')
 	}
 	// dont worry http://hastebin.com/ciqoriyico.sm
 	};
