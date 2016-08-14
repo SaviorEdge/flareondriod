@@ -182,7 +182,7 @@ exports.commands = {
 	uranium: function () {
 		this.restrictReply('Pokemon Uranium Download: https://drive.google.com/drive/folders/0B0TiKxLInJ2iMFl5VGhGaDI3bjQ')
 	},
-	dank: funtion () {
+	dank: function () {
 		this.restrictReply('!showimage http://i.imgur.com/4I3f8Cs.jpg, 300, 260')
 	},
 	// dont worry http://hastebin.com/ciqoriyico.sm
