@@ -179,5 +179,8 @@ exports.commands = {
 	btahb: function () {
 		this.restrictReply('!showimage http://i.imgur.com/Dz5dgJj.jpg, 300, 220')
 	}
+	uranium: function () {
+		this.restrictReply('Pokemon Uranium Download: https://drive.google.com/drive/folders/0B0TiKxLInJ2iMFl5VGhGaDI3bjQ')
+	}
 	// dont worry http://hastebin.com/ciqoriyico.sm
 	};
