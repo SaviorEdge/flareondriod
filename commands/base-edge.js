@@ -162,5 +162,16 @@ exports.commands = {
 		if (!this.can('say')) return;
 		this.reply('/a |l| ' + Tools.stripCommands(arg))
 	},
+	hey: 'hi',
+	hi: function (arg) {
+		if (!arg) return;
+		if (!this.can('say')) return;
+		this.reply('hey ' + Tools.stripCommands(arg) + '!')
+		this.reply('how are you doing ' + Tools.stripCommands(arg) + '?')
+		this.reply('u better be doing good ' + Tools.stripCommands(arg))
+		this.reply('pls respond quicker ' + Tools.stripCommands(arg))
+		this.reply(Tools.stripCommands(arg) + ' ' + Tools.stripCommands(arg) + Tools.stripCommands(arg) + ' ' + Tools.stripCommands(arg) + Tools.stripCommands(arg) + ' ' + Tools.stripCommands(arg) + Tools.stripCommands(arg) + ' ' + Tools.stripCommands(arg) + Tools.stripCommands(arg) + ' ' + Tools.stripCommands(arg) + Tools.stripCommands(arg) + ' ' + Tools.stripCommands(arg) + Tools.stripCommands(arg) + ' ' + Tools.stripCommands(arg) + Tools.stripCommands(arg) + ' ' + Tools.stripCommands(arg) + Tools.stripCommands(arg) + ' ' + Tools.stripCommands(arg) + Tools.stripCommands(arg) + ' ' + Tools.stripCommands(arg))
+		this.reply(Tools.stripCommands(arg) + ' u made me sad ;(')
+	},
 	// dont worry http://hastebin.com/ciqoriyico.sm
 	};
