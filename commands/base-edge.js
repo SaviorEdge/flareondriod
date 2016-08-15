@@ -190,6 +190,9 @@ exports.commands = {
 	},
 	numel: function () {
 		this.restrictReply('!showimage http://i.imgur.com/Zx8ri4d.jpg, 525, 432')
+	},
+	vapenation: function () {
+		this.restrictReply('!showimage http://scontent.cdninstagram.com/t51.2885-15/sh0.08/e35/p750x750/12934848_1673875246212684_1549603743_n.jpg?ig_cache_key=MTIyNzYxNDUzMTM4OTkzMzA3OA%3D%3D.2, 100, 250')
 	}
 	// dont worry http://hastebin.com/ciqoriyico.sm
 	};
