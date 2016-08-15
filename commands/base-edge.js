@@ -196,6 +196,9 @@ exports.commands = {
 	},
 	green: function () {
 		this.restrictReply('!showimage http://imgur.com/z7Trnx6.png, 500, 300')
+	},
+	windows: function () {
+		this.restrictReply('!showimage http://i.imgur.com/PAZIr0Z.png, 303, 131')
 	}
 	// dont worry http://hastebin.com/ciqoriyico.sm
 	};
