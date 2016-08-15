@@ -208,6 +208,9 @@ exports.commands = {
 	},
 	face: function () {
 		this.restrictReply('!showimage http://i.imgur.com/nu5c8bI.jpg, 500, 160')
+	},
+	7: function () {
+		this.restrictReply('!showimage http://i.imgur.com/jPcihNt.png, 228, 26')
 	}
 	// dont worry http://hastebin.com/ciqoriyico.sm
 	};
