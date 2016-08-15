@@ -193,6 +193,9 @@ exports.commands = {
 	},
 	vapenation: function () {
 		this.restrictReply('!showimage http://scontent.cdninstagram.com/t51.2885-15/sh0.08/e35/p750x750/12934848_1673875246212684_1549603743_n.jpg?ig_cache_key=MTIyNzYxNDUzMTM4OTkzMzA3OA%3D%3D.2, 100, 250')
+	},
+	green: function () {
+		this.restrictReply('!showimage http://imgur.com/z7Trnx6.png, 500, 300')
 	}
 	// dont worry http://hastebin.com/ciqoriyico.sm
 	};
