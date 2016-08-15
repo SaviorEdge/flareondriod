@@ -103,7 +103,7 @@ exports.commands = {
 		} else {
 			text += this.trad('n1') + ' ' + arg + ' ' + this.trad('n2');
 		}
-		this.pmReply(text);
+		this.reply(text);
 	},
 
 	publicalts: 'alts',
@@ -142,7 +142,7 @@ exports.commands = {
 		} else {
 			text += this.trad('n') + ' ' +  Settings.userManager.getName(arg);
 		}
-		this.pmReply(text);
+		this.reply(text);
 	},
 
 	say: function (arg) {
