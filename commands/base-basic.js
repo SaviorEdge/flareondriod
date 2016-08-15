@@ -126,7 +126,7 @@ exports.commands = {
 					text += toAdd;
 				}
 				if (text.length) cmds.push(text);
-				this.pmReply(cmds);
+				this.reply(cmds);
 				return;
 			} else {
 				if (alts.length <= 10) {
