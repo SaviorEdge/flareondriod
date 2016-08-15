@@ -214,6 +214,9 @@ exports.commands = {
 	},
 	cell: function () {
 		this.restrictReply('!showimage http://65.media.tumblr.com/9b9a06a39ab88a13d19a20e0b4509c03/tumblr_nzfe93ycX21uh8f6yo1_1280.jpg, 500, 400')
+	},
+	666: function () {
+		this.restrictReply('!showimage http://i.imgur.com/9514Fk0.png,210, 218')
 	}
 	// dont worry http://hastebin.com/ciqoriyico.sm
 	};
