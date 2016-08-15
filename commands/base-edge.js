@@ -199,6 +199,9 @@ exports.commands = {
 	},
 	windows: function () {
 		this.restrictReply('!showimage http://i.imgur.com/PAZIr0Z.png, 303, 131')
+	},
+	dancing: function () {
+		this.restrictReply('!showimage https://66.media.tumblr.com/c38e5b80d1d0143f8b6f5173712918f9/tumblr_nza09bbdHf1tgtl2ao1_400.gif, 300, 300')
 	}
 	// dont worry http://hastebin.com/ciqoriyico.sm
 	};
