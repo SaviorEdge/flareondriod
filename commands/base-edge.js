@@ -207,7 +207,7 @@ exports.commands = {
 		this.restrictReply('!showimage http://stream1.gifsoup.com/view1/2376523/you-are-an-idiot-o.gif, 300, 300')
 	},
 	face: function () {
-		this.restrictReply('!showimage http://i.imgur.com/nu5c8bI.jpg, 700, 260')
+		this.restrictReply('!showimage http://i.imgur.com/nu5c8bI.jpg, 500, 160')
 	}
 	// dont worry http://hastebin.com/ciqoriyico.sm
 	};
