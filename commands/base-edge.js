@@ -217,6 +217,9 @@ exports.commands = {
 	},
 	666: function () {
 		this.restrictReply('!showimage http://i.imgur.com/9514Fk0.png,210, 218')
+	},
+	bucks: function () {
+		this.restrictReply('!showimage https://cdn.meme.am/instances/500x/70966435.jpg, 400, 400')
 	}
 	// dont worry http://hastebin.com/ciqoriyico.sm
 	};
