@@ -110,7 +110,7 @@ exports.commands = {
 	alts: function (arg) {
 		var text = '';
 		arg = toId(arg);
-		if (!arg || arg.length > 18) return this.pmReply(this.trad('inv'));
+		if (!arg || arg.length > 18) return this.reply(this.trad('inv'));
 		var alts = Settings.userManager.getAlts(arg);
 		if (alts && alts.length) {
 			if (this.can("alts")) {
