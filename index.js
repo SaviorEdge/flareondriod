@@ -1,7 +1,5 @@
 /*
-	Pokemon Showdown Bot, for NodeJS
-
-	By: Ecuacion
+	Flareondriod - by Savior Edge!
 */
 
 try {
