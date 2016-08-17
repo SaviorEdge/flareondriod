@@ -20,7 +20,7 @@ try {
 
 console.log((
 	'-----------------------------------------------\n' +
-	'   Welcome to Pokemon Showdown Bot for Node!   \n' +
+	'           Flareondriod\'s Terminal!           \n' +
 	'-----------------------------------------------\n'
 ).yellow);
 
@@ -435,9 +435,9 @@ Bot.on('line', function (room, message, isIntro, spl) {
 /* Info and debug */
 
 Bot.on('joinroom', function (room, type) {
-	SecurityLog.log("Joined room: " + room + " [" + type + "]");
-	if (type === 'chat') monitor('Joined room ' + room, 'room', 'join');
-	else if (type === 'battle') monitor('Joined battle ' + room, 'battle', 'join');
+	SecurityLog.log("I have joined " + room + " [" + type + "]");
+	if (type === 'chat') monitor('I have joined ' + room, 'room', 'join');
+	else if (type === 'battle') monitor('I have joined ' + room, 'battle', 'join');
 	else monitor('Joined room ' + room + ' [' + Bot.rooms[room].type + ']', 'room', 'join');
 });
 
