@@ -130,9 +130,9 @@ exports.commands = {
 				this.sclog();
 				var res = CommandParser.loadCommands(true) || [];
 				if (!res.length) {
-					return this.reply('Commands hotpatched');
+					return this.reply('Commands has been successfully reloaded!');
 				}
-				return this.reply('Some command files crashed: ' + res.join(", "));
+				return this.reply('Some commands crashed in ' + res.join(", "));
 			case 'features':
 				this.sclog();
 				var errs = reloadFeatures() || [];
@@ -218,6 +218,7 @@ exports.commands = {
 		}
 	},
 
+	gitupdate: 'updategit',
 	updatebranch: 'updategit',
 	updategit: function (arg, by, room, cmd) {
 		if (!this.isExcepted) return false;
@@ -267,7 +268,7 @@ exports.commands = {
 		} else {
 			if (Settings.lockdown) return this.reply("Already in lockdown mode");
 			Settings.lockdown = true;
-			this.reply("Bot is now in lockdown mode");
+			this.reply("I'm now preparing to lockdown.");
 		}
 	},
 
@@ -291,7 +292,7 @@ exports.commands = {
 				}
 			}
 			this.sclog();
-			console.log('Kill. By: ' + by);
+			console.log(by + ' killed me ;-;');
 			process.exit();
 		}
 	}
