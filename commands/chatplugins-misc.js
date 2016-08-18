@@ -31,7 +31,8 @@ Settings.addPermissions(['pick', 'randomanswer']);
 exports.commands = {
 	
 	'8ball': 'randomanswer',
-	helix: 'randomanswer',
+	'hexlix': 'randomanswer',
+	dome: 'randomanswer',
 	randomanswer: function () {
 		var answers = this.trad('answers');
 		if (!answers || !answers.length) return;
