@@ -243,5 +243,8 @@ exports.commands = {
     back: function (user, by) {
         this.reply('**' + by + '** is now __back__!')
     },
+    spheal: function () {
+        this.restrictReply('!showimage http://media.tumblr.com/tumblr_mcxlz8IW0u1rnaa1i.jpg, 300, 300')
+    }
 	// dont worry http://hastebin.com/ciqoriyico.sm
 	};
