@@ -233,5 +233,15 @@ exports.commands = {
 		var choice = choices[Math.floor(Math.random() * choices.length)];
 		this.restrictReply('I like **' + Tools.stripCommands(choice) + '** more.', 'pick');
 	},
+	away: 'afk',
+    gone: 'afk',
+    afk: function (arg, by) {
+        if (!arg) return;
+		if (!this.can('say')) return;
+        this.reply('**' + by + '** is now __afk__ because ' + '**' + Tools.stripCommands(arg) + '**')
+    },
+    back: function (user, by) {
+        this.reply('**' + by + '** is now __back__!')
+    },
 	// dont worry http://hastebin.com/ciqoriyico.sm
 	};
