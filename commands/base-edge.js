@@ -250,6 +250,9 @@ exports.commands = {
     bnowlin: 'bnowlin1999',
     bnowlin1999: function () {
         this.restrictReply('!showimage https://thumbs.dreamstime.com/z/little-boy-screaming-22367908.jpg, 300, 400')
-    }
+    },
+    calm: function () {
+        this.restrictReply('!showimage https://cdn.meme.am/instances/500x/54562070.jpg, 400, 400')
+    },
 	// dont worry http://hastebin.com/ciqoriyico.sm
 	};
