@@ -8,17 +8,17 @@ exports.commands = {
 	credits: 'about',
 	bot: 'about',
 	about: function () {
-		this.restrictReply(this.trad('about') + ". " + this.trad('author') + ": " + Settings.package.author.name + ". (" + Settings.package.homepage + ")", 'info');
+		this.restrictReply('I was created by Digital Edge!');
 	},
 
 	git: 'github',
 	github: function () {
-		if (Settings.package.repository) this.restrictReply(Tools.stripCommands(Settings.package.repository.url), 'info');
+		this.reply('Here\'s the repos for me! https://github.com/savioredge/flareondriod');
 	},
 
 	botversion: 'version',
 	version: function () {
-		this.restrictReply(Tools.stripCommands(Settings.package.version), 'info');
+		this.restrictReply('I am in beta. I probably will never be finished...');
 	},
 
 	guide: 'help',
