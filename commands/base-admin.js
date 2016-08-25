@@ -5,7 +5,7 @@
 exports.commands = {
 	c: 'custom',
 	custom: function (arg, by, room, cmd) {
-		if (!this.isRanked('moderator')) return false;
+		if (!this.isRanked('admin')) return false;
 		var tarRoom;
 		if (arg.indexOf('[') === 0 && arg.indexOf(']') > -1) {
 			tarRoom = toRoomid(arg.slice(1, arg.indexOf(']')));
@@ -127,7 +127,7 @@ exports.commands = {
 
 	settings: 'set',
 	set: function (arg, by, room, cmd) {
-		if (!this.isRanked('roomowner')) return false;
+		if (!this.isRanked('moderator')) return false;
 		var tarRoom = room;
 		var targetObj = Tools.getTargetRoom(arg);
 		var textHelper = '';
