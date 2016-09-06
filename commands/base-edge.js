@@ -249,5 +249,11 @@ exports.commands = {
     calm: function () {
         this.restrictReply('!showimage https://cdn.meme.am/instances/500x/54562070.jpg, 400, 400')
     },
+    poliswag: function() {
+		this.reply('!showimage http://image.blingee.com/images19/content/output/000/000/000/7da/816733212_1351938.gif, 300, 300')
+    },
+    chill: function() {
+		this.reply('!showimage https://s-media-cache-ak0.pinimg.com/564x/d7/c2/37/d7c2373c84b2312f25eed56239409a40.jpg, 300, 300')
+    },
 	// dont worry http://hastebin.com/ciqoriyico.sm
 	};
