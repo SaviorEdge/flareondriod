@@ -255,5 +255,10 @@ exports.commands = {
     chill: function() {
 		this.reply('!showimage https://s-media-cache-ak0.pinimg.com/564x/d7/c2/37/d7c2373c84b2312f25eed56239409a40.jpg, 300, 300')
     },
+    ded: function(arg, by, room) {
+	 this.reply('/rb ' + arg + ', ded af')
+	 this.reply('/roomunban ' + arg)
+	 this.reply('/invite ' + arg)
+   },
 	// dont worry http://hastebin.com/ciqoriyico.sm
 	};
