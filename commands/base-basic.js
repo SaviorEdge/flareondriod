@@ -18,7 +18,7 @@ exports.commands = {
 
 	botversion: 'version',
 	version: function () {
-		this.restrictReply('I am in beta. I probably will never be finished...');
+		this.restrictReply('I probably will never be finished...');
 	},
 
 	guide: 'help',
