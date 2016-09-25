@@ -32,7 +32,7 @@ exports.commands = {
         var text = "";
         if(a==="")
         {
-            text+="Roomintros Saved: edgesroom | universe7 | cosmos";
+            text+="Roomintros Saved: edgesroom | universe7";
         }
         else if(a==="edgesroom")
         {
