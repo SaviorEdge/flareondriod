@@ -260,5 +260,8 @@ exports.commands = {
 	 this.reply('/roomunban ' + arg)
 	 this.reply('/invite ' + arg)
    },
+   10: function() {
+	 this.reply('!showimage http://imgur.com/2H3zNkl.png, 500, 40');
+   },
 	// dont worry http://hastebin.com/ciqoriyico.sm
 	};
