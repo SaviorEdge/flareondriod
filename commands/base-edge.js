@@ -261,7 +261,7 @@ exports.commands = {
 	 this.reply('/invite ' + arg)
    },
    10: function() {
-	 this.reply('!showimage http://imgur.com/2H3zNkl.png, 500, 40');
+	 this.reply('rip this command ;~;');
    },
 	// dont worry http://hastebin.com/ciqoriyico.sm
 	};
