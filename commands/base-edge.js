@@ -6,20 +6,20 @@ exports.commands = {
 	boney: function () {
 		this.restrictReply('!showimage http://i.imgur.com/MqHnW4m.png, 300, 300');
 	},
-	
+
 		potato: 'potato',
 		potato: 'danktrump',
 		potato: 'potatotrump',
 	potato: function () {
 		this.restrictReply('!showimage http://img.ifcdn.com/images/4582a38f7b50e3c38e59dbb393097fd78b30e3c8a8d4dc7938e6c12b2139245c_1.jpg, 250, 300');
 	},
-	
+
 		eevee:'edgeavatar',
 		edgeavatar:'edgeavatar',
 	eevee: function () {
 		this.restrictReply('!showimage http://imgur.com/fylE14s.gif, 80, 80')
 	},
-	
+
 		beerus:'beerus',
 	beerus: function () {
 		this.restrictReply('!htmlbox <font size="10" color="skyblue"> ( ᚖ 人 ᚖ ) </font>')
@@ -89,7 +89,7 @@ exports.commands = {
 		dance:'dance',
 	dance: function() {
 		this.restrictReply('/me dances'),
-		this.restrictReply('**How did you like my dancing?**'),	
+		this.restrictReply('**How did you like my dancing?**'),
 		this.restrictReply('**Because I r8\'d it 8/8 m8**'),
 		this.restrictReply(':3')
 	},
@@ -135,7 +135,7 @@ exports.commands = {
         edge: function() {
         	this.restrictReply('!htmlbox <div class="broadcast-red"</div><div style="background-image:url(http://imgur.com/vga5VB4.png);position:center;color:black"><center><img src="http://imgur.com/C1rzoy1.gif" width="50" height="50"><img src="http://imgur.com/C1rzoy1.gif" width="50" height="50"><img src="http://imgur.com/C1rzoy1.gif" width="50" height="50"><img src="http://imgur.com/C1rzoy1.gif" width="50" height="50"><img src="http://imgur.com/C1rzoy1.gif" width="50" height="50"><img src="http://imgur.com/C1rzoy1.gif" width="50" height="50"><img src="http://imgur.com/C1rzoy1.gif" width="50" height="50"><img src="http://imgur.com/C1rzoy1.gif" width="50" height="50"><img src="http://imgur.com/C1rzoy1.gif" width="50" height="50"><img src="http://imgur.com/C1rzoy1.gif" width="50" height="50"></center><center><p style="font-size:60px;color:skyblue;text-shadow:2px 2px 2px #000"><b>Edge</b></p><img src="http://imgur.com/C1rzoy1.gif" width="50" height="50"><img src="http://imgur.com/C1rzoy1.gif" width="50" height="50"><img src="http://imgur.com/C1rzoy1.gif" width="50" height="50"><img src="http://imgur.com/C1rzoy1.gif" width="50" height="50"><img src="http://imgur.com/C1rzoy1.gif" width="50" height="50"><img src="http://imgur.com/C1rzoy1.gif" width="50" height="50"><img src="http://imgur.com/C1rzoy1.gif" width="50" height="50"><img src="http://imgur.com/C1rzoy1.gif" width="50" height="50"><img src="http://imgur.com/C1rzoy1.gif" width="50" height="50"><img src="http://imgur.com/C1rzoy1.gif" width="50" height="50"></center></div>')
         },
-	
+
 	9: function() {
 		this.restrictReply('!htmlbox <h5>1051541451431641621571721571511441234567881234567812345678123678326470547<br>2999999259923478990124999995689902993413269916749953349999914649932724997<br>2994567809912568990139956799809929936781467998299634699818991169966144990<br>2999994569970124995699801323459999012615302799995324993243699019923412993<br>2994567801993569980299356780239999456725634569974326992644399243992369936<br>2994567801992689901239967899029939945745315319931253399436998011992349950<br>2998012345299999388352999991039953991232012479934673289999982640499999415<br><br></h5>Step1: Highlight the numbers<br>Step2: Ctrl and F<br>Step3: Put 9 in<br>Step4: Enjoy﻿')
 	},
@@ -261,7 +261,7 @@ exports.commands = {
 	 this.reply('/invite ' + arg)
    },
    10: function() {
-	 this.reply('rip this command ;~;');
+	 this.reply('rip this command ;~; - it got deleted feelsbd');
    },
 	// dont worry http://hastebin.com/ciqoriyico.sm
 	};
