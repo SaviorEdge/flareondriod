@@ -260,8 +260,6 @@ exports.commands = {
 	 this.reply('/roomunban ' + arg)
 	 this.reply('/invite ' + arg)
    },
-   10: function() {
-	 this.reply('rip this command ;~; - it got deleted feelsbd');
-   },
+	 
 	// dont worry http://hastebin.com/ciqoriyico.sm
 	};
