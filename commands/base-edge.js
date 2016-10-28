@@ -278,6 +278,9 @@ exports.commands = {
 	chickenfame: function() {
 		this.reply('!htmlbox <img src=http://i.imgur.com/roZjpC5.gifwidth=450 height=300>');
    }, 
+	dog: function() {
+		this.reply('!htmlbox ░▄▀▄▀▀▀▀▄▀▄░░░░░░░░░<br>░█░░░░░░░░▀▄░░░░░░▄░<br>█░░▀░░▀░░░░░▀▄▄░░█░█<br>█░▄░█▀░▄░░░░░░░▀▀░░█<br>█░░▀▀▀▀░░░░░░░░░░░░█<br>█░░░░░░░░░░░░░░░░░░█<br>█░░░░░░░░░░░░░░░░░░█<br>░█▄░░▄▄▄▄░░▄▄░░█░<br>░█░▄▀▀░░█░▄▀█░▄▀░<br>░░▀░░░▀░░░░░▀░░░▀░░░<br>');
+   },
 };
 /*
 // dont worry http://hastebin.com/ciqoriyico.sm
