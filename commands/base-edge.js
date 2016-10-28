@@ -265,6 +265,9 @@ exports.commands = {
    },
 	harambeharrison: function() {
 		this.reply('!htmlbox <img src=http://i1.kym-cdn.com/photos/images/original/001/160/017/9fe.jpg width=300 height=400>');
-   },		
+   },	
+	squiddab: function() {
+   		this.reply('!htmlbox <img src=http://i.imgur.com/NKo9LhU.gif width=300 height=300>')
+   },
 	// dont worry http://hastebin.com/ciqoriyico.sm
 	};
