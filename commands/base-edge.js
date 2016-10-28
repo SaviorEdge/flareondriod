@@ -263,6 +263,8 @@ exports.commands = {
 	overcomb: function() {
 		this.reply('!htmlbox  <img src=https://img.ifcdn.com/images/a5c06858a012df0398b21cbb3caac5920b7d84c696ea4c4fb38d073087d0de08_1.jpg width=250 height=350/>');
    },
-	 
+	harambeharrison: function() {
+		this.reply('!htmlbox <img src=http://i1.kym-cdn.com/photos/images/original/001/160/017/9fe.jpg width=300 height=400>');
+   },		
 	// dont worry http://hastebin.com/ciqoriyico.sm
 	};
