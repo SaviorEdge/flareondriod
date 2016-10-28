@@ -260,7 +260,7 @@ exports.commands = {
 	 this.reply('/roomunban ' + arg)
 	 this.reply('/invite ' + arg)
    },
-	trumpdab: function() {
+	overcomb: function() {
 		this.reply('!htmlbox  <img src=https://img.ifcdn.com/images/a5c06858a012df0398b21cbb3caac5920b7d84c696ea4c4fb38d073087d0de08_1.jpg width=250 height=350/>
    },
 	 
