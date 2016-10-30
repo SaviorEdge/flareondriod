@@ -241,11 +241,6 @@ exports.commands = {
     spheal: function () {
         this.restrictReply('!showimage http://media.tumblr.com/tumblr_mcxlz8IW0u1rnaa1i.jpg, 300, 300')
     },
-    bnow: 'bnowlin1999',
-    bnowlin: 'bnowlin1999',
-    bnowlin1999: function () {
-        this.restrictReply('!showimage https://thumbs.dreamstime.com/z/little-boy-screaming-22367908.jpg, 300, 400')
-    },
     calm: function () {
         this.restrictReply('!showimage https://cdn.meme.am/instances/500x/54562070.jpg, 400, 400')
     },
