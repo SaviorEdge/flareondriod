@@ -269,7 +269,7 @@ exports.commands = {
 	squiddab: function() {
    		this.reply('!htmlbox <img src=http://i.imgur.com/NKo9LhU.gif width=300 height=300>')
    },
-	greeendance: function() {
+	greendance: function() {
    		this.reply('!htmlbox <img src=http://i.imgur.com/7N40Dx8.gif width=300 height=300>');
    },
 	bravo: function() {
