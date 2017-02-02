@@ -29,7 +29,12 @@ var regdateCache = [];
 Settings.addPermissions(['pick', 'randomanswer']);
 
 exports.commands = {
-	
+	petgiveaway: 'petga',
+	petga: function (arg) {
+	var poke = (arg);
+	this.restrictReply("/giveaway lottery GravityBoTTT, " + poke + ", 1");
+	this.restrictReply("!pet info " + poke);
+	},
 	'8ball': 'randomanswer',
 	'hexlix': 'randomanswer',
 	dome: 'randomanswer',
