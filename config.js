@@ -11,11 +11,11 @@
 *
 */
 
-exports.server = 'forest-tbs41195.c9users.io';
+exports.server = '';
 
 exports.port = 80;
 
-exports.serverid = 'salandit';
+exports.serverid = '';
 
 exports.autoReconnectDelay = 1 * 1;
 exports.connectionTimeout = 2 * 60 * 999999999999999999999999;
@@ -44,7 +44,7 @@ exports.watchconfig = true;
 * Login Details
 */
 
-exports.nick = 'FlareonDriod';
+exports.nick = '';
 
 exports.pass = '';
 
@@ -77,10 +77,7 @@ exports.initCmds = ['|/avatar 211']; // Other commands (avatar, blockchallenges,
 * Auth configuration
 */
 
-exports.exceptions = {
-	'digitaledge': true, 
-	'savioredge': true,
-	'edgejs': true, 
+exports.exceptions = { 
 	// 'userid': true
 };
 
