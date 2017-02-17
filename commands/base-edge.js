@@ -284,6 +284,15 @@ exports.commands = {
 		books: function() {
 			this.reply('!showimage https://i.ytimg.com/vi/fXms3agi1Cs/maxresdefault.jpg, 600, 400');
 	},
+	nword: function() {
+		this.reply('!htmlbox <img src=https://i.ytimg.com/vi/od2FTb00XH4/maxresdefault.jpg width=400 height=300');
+	},
+	lost: function() {
+		this.reply('!htmlbox [20:45] Lost Cause 146: Explain these and who is nicholas johnson http://pastebin.com/6sGkiKYm http://pastebin.com/eCTFhcP0<br>[20:46] ~Salandit: no and thats none of your business<br>[20:47] Lost Cause 146: Hmph<br>[20:47] Lost Cause 146: I see how it is<br>[20:53] Lost Cause 146: Then youll have to take them from me<br>[21:01] Lost Cause 146: What do you think you are<br>[21:01] Lost Cause 146: A god?<br>[21:01] Lost Cause 146: Some sort of king?<br>[21:01] Lost Cause 146: I wont stand for it<br>[21:03] Lost Cause 146: I wont sit there and watch you play with them like toys<br>[21:03] Lost Cause 146: Ill take a stand unlike the others<br>[21:03] Lost Cause 146: I dont care what you think and I dont care what you say you will do');
+	},
+	bnow: function() {
+		this.reply('!showimage https://i.ytimg.com/vi/SKbYn1ma_Jk/maxresdefault.jpg, 500, 300');
+	},
 };
 /*
 // dont worry http://hastebin.com/ciqoriyico.sm
