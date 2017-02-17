@@ -293,6 +293,9 @@ exports.commands = {
 	bnow: function() {
 		this.reply('!showimage https://i.ytimg.com/vi/SKbYn1ma_Jk/maxresdefault.jpg, 500, 300');
 	},
+	shady: function() {
+		this.reply('!showimage http://luciemarie.com/wp-content/uploads/2011/07/nerd-kid2.jpg, 400, 300');
+	},
 };
 /*
 // dont worry http://hastebin.com/ciqoriyico.sm
