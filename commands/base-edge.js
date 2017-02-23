@@ -29,6 +29,23 @@ exports.commands = {
 		darkeevee: function() {
 		this.restrictReply('!showimage http://orig04.deviantart.net/d2b3/f/2012/092/1/8/darkrai_eevee_sprite_by_sandy19801-d4urc18.png, 300, 300')
 	},
+		plan: function (arg) {
+		if (!arg) return this.reply('Name someone ya idiot.');	
+		if (!this.can('say')) return;
+		this.reply('yo ' + Tools.stripCommands(arg) + ' guess what');
+		this.restrictReply('/me hates you');
+		this.restrictReply('/me makes an evil plan');
+		this.restrictReply('/me needs edges help');
+		this.restrictReply('/me gets edge');
+		this.reply(Tools.stripCommands(arg) + ' listen here. You have... ');
+		this.reply('2 seconds to not die.');
+		this.reply('2, 1');
+		this.restrictReply('KABLAM!');
+		this.restrictReply('/me laughs meniacally');
+		this.restrictReply('/me wins');
+		this.restrictReply('/me also kills edge bc');
+		this.restrictReply('!dt 360');
+	},
 		die: function (arg) {
 		if (!arg) return;
 		if (!this.can('say')) return;
