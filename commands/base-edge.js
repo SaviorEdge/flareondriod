@@ -321,6 +321,22 @@ exports.commands = {
 		this.reply('/mute ' + by + ', bad person');
 		this.reply('/unmute ' + by);
 	},
+	highnoot: function() {
+		this.reply('!showimage https://img.ifcdn.com/images/0778d30bdad8e564386a00ba809b6246ae5c90cae15fe91a87dfe68511ac03de_1.jpg, 400, 300');
+	},
+	nootfather: function() {
+		this.reply('!showimage https://img.ifcdn.com/images/d741004e66813112bbb8f5d668e0acd562760b05c1b526b1597a8bf871582ecb_1.jpg, 300, 500');
+	},
+	nooty: function() {
+		this.reply('!showimage https://i.imgflip.com/1479p8.jpg, 400, 300');
+	},
+	comingtotheaters: function() {
+		this.reply('!showimage http://i.imgur.com/Y4LM6Se.jpg, 320, 450');
+	},
+	duel: function() {
+		this.reply('!showimage http://cdn.smosh.com/sites/default/files/2016/05/dat-boi-memes-boy-who-lived.jpg, 400, 400');
+	},
+	
 };
 /*
 // dont worry http://hastebin.com/ciqoriyico.sm
