@@ -1,6 +1,13 @@
 /*
-	Edge Commands
+*******Edge Commands*******
+***y'know that these are*** 
+****some dank and uh...****
+**worthless commands that**
+***that was created for ***
+**fun but thats the point**
+******of Flareondriod******
 */
+
 exports.commands = {
 		boney: 'boney',
 		boney: function () {
@@ -244,65 +251,65 @@ exports.commands = {
 			var choice = choices[Math.floor(Math.random() * choices.length)];
 		this.restrictReply('I like **' + Tools.stripCommands(choice) + '** more.', 'pick');
 	},
-		away: 'afk',
+	away: 'afk',
   	gone: 'afk',
   	afk: function (arg, by) {
-  		if (!arg) return;
+  			if (!arg) return;
 			if (!this.can('say')) return;
-  	this.reply('**' + by + '** is now __afk__ because ' + '**' + Tools.stripCommands(arg) + '**')
-  },
+  		this.reply('**' + by + '** is now __afk__ because ' + '**' + Tools.stripCommands(arg) + '**')
+    },
   	back: function (user, by) {
-  	this.reply('**' + by + '** is now __back__!')
-  },
+  		this.reply('**' + by + '** is now __back__!')
+    },
     spheal: function () {
-    this.restrictReply('!showimage http://media.tumblr.com/tumblr_mcxlz8IW0u1rnaa1i.jpg, 300, 300')
-  },
+    	this.restrictReply('!showimage http://media.tumblr.com/tumblr_mcxlz8IW0u1rnaa1i.jpg, 300, 300')
+    },
     calm: function () {
-    this.restrictReply('!showimage https://cdn.meme.am/instances/500x/54562070.jpg, 400, 400')
-  },
+    	this.restrictReply('!showimage https://cdn.meme.am/instances/500x/54562070.jpg, 400, 400')
+    },
     poliswag: function() {
 		this.reply('!showimage http://image.blingee.com/images19/content/output/000/000/000/7da/816733212_1351938.gif, 300, 300')
-  },
+    },
     chill: function() {
 		this.reply('!showimage https://s-media-cache-ak0.pinimg.com/564x/d7/c2/37/d7c2373c84b2312f25eed56239409a40.jpg, 300, 300')
-  },
+    },
   	ded: function(arg, by, room) {
 	 	this.reply('/rb ' + arg + ', ded af')
 	 	this.reply('/roomunban ' + arg)
 	 	this.reply('/invite ' + arg)
 	},
-		overcomb: function() {
+	overcomb: function() {
 		this.reply('!htmlbox  <img src=https://img.ifcdn.com/images/a5c06858a012df0398b21cbb3caac5920b7d84c696ea4c4fb38d073087d0de08_1.jpg width=250 height=350/>');
-  },
-		harambeharrison: function() {
+    },
+	harambeharrison: function() {
 		this.reply('!htmlbox <img src=http://i1.kym-cdn.com/photos/images/original/001/160/017/9fe.jpg width=300 height=400>');
-  },
-		squiddab: function() {
-   	this.reply('!htmlbox <img src=http://i.imgur.com/NKo9LhU.gif width=300 height=300>')
+    },
+	squiddab: function() {
+   		this.reply('!htmlbox <img src=http://i.imgur.com/NKo9LhU.gif width=300 height=300>')
 	},
-		greendance: function() {
-   	this.reply('!htmlbox <img src=http://i.imgur.com/7N40Dx8.gif width=300 height=300>');
-  },
-		bravo: function() {
+	greendance: function() {
+   		this.reply('!htmlbox <img src=http://i.imgur.com/7N40Dx8.gif width=300 height=300>');
+    },
+	bravo: function() {
 		this.reply('!htmlbox <img src=http://i.imgur.com/9MZQW.gif width=450 height=300>');
-  },
-		chickenfame: function() {
+    },
+	chickenfame: function() {
 		this.reply('!htmlbox <img src=http://i.imgur.com/roZjpC5.gif width=450 height=300>');
 	},
-		dog: function() {
+	dog: function() {
 		this.reply('!htmlbox ░▄▀▄▀▀▀▀▄▀▄░░░░░░░░░<br>░█░░░░░░░░▀▄░░░░░░▄░<br>█░░▀░░▀░░░░░▀▄▄░░█░█<br>█░▄░█▀░▄░░░░░░░▀▀░░█<br>█░░▀▀▀▀░░░░░░░░░░░░█<br>█░░░░░░░░░░░░░░░░░░█<br>█░░░░░░░░░░░░░░░░░░█<br>░█▄░░▄▄▄▄░░▄▄░░█░<br>░█░▄▀▀░░█░▄▀█░▄▀░<br>░░▀░░░▀░░░░░▀░░░▀░░░<br>');
 	},
-		smile: function() {
+	smile: function() {
 		this.reply('!htmlbox ▒▒▒▒▒▒▒▒▒▒▒▒<br>▒▒▒▒▓▒▒▓▒▒▒▒<br>▒▒▒▒▓▒▒▓▒▒▒▒<br>▒▒▒▒▒▒▒▒▒▒▒▒<br>▒▓▒▒▒▒▒▒▒▓▒▒<br>▒▓▓▓▓▓▓▓▓▓▒▒<br>▒▒▒▒▒▒▒▒▒▒▒▒')
-  },
-	 nemo: function() {
-	 this.reply('!htmlbox <marquee direction=\"up\" scrollamount=\"2\"><center>disney presnts:<br/>finding <>< nemo <strong>HD!</strong></center><br/><marquee direction=\"left\" scrollamount=\"10\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"20\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"40\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"30\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"20\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"4\" width=\"800px\">lmao stop following me <><&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;have you seen my son <&deg;)))><</marquee><marquee direction=\"left\" scrollamount=\"15\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"24\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"22\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"11\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"18\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"12\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"27\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"16\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"31\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"8\" width=\"800px\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </marquee><br/><marquee direction=\"left\" scrollamount=\"8\" width=\"800px\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /\' )&nbsp;&nbsp;</marquee><br/><marquee direction=\"left\" scrollamount=\"8\" width=\"800px\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /\'&nbsp;&nbsp;&nbsp;&nbsp; (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ,</marquee><br/><marquee direction=\"left\" scrollamount=\"8\" width=\"800px\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /\'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; )&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .\' `;</marquee><br/><marquee direction=\"left\" scrollamount=\"8\" width=\"800px\">&nbsp;&nbsp;&nbsp;&nbsp; o&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _.-~~~~\'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ``---..&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .\'&nbsp;&nbsp;&nbsp;&nbsp; ; FISH ARE FRIENDS</marquee><br/><marquee direction=\"left\" scrollamount=\"8\" width=\"800px\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _.--\'&nbsp;&nbsp;&nbsp;&nbsp; &deg;)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ``--....\'&nbsp;&nbsp;&nbsp;&nbsp; .\' NOT FOOD</marquee><br/><marquee direction=\"left\" scrollamount=\"8\" width=\"800px\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; )).&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `-._&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;</marquee><br/><marquee direction=\"left\" scrollamount=\"8\" width=\"800px\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `vvvvvvv-)-....._.-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `-.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ...--\'-.\'.</marquee><br/><marquee direction=\"left\" scrollamount=\"8\" width=\"800px\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `^^^^^\'-------.....`-._.\'----... .\'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `.;</marquee><br/><marquee direction=\"left\" scrollamount=\"8\" width=\"800px\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `-`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `&nbsp;&nbsp;</marquee><br/><marquee direction=\"left\" scrollamount=\"12\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"27\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"16\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"31\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"11\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"24\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"18\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"18\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"2\" width=\"800px\">daddy? ;-; <&deg;))><</marquee><br/><marquee direction=\"left\" scrollamount=\"11\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"22\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"14\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"24\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"20\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"14\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"4\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"6\" width=\"800px\"><><</marquee><br/><center>directed by: walt disney<br/>hd remake by: Inferno<br/></center></marquee>')
+	},
+	nemo: function() {
+		this.reply('!htmlbox <marquee direction=\"up\" scrollamount=\"2\"><center>disney presnts:<br/>finding <>< nemo <strong>HD!</strong></center><br/><marquee direction=\"left\" scrollamount=\"10\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"20\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"40\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"30\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"20\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"4\" width=\"800px\">lmao stop following me <><&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;have you seen my son <&deg;)))><</marquee><marquee direction=\"left\" scrollamount=\"15\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"24\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"22\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"11\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"18\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"12\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"27\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"16\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"31\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"8\" width=\"800px\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </marquee><br/><marquee direction=\"left\" scrollamount=\"8\" width=\"800px\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /\' )&nbsp;&nbsp;</marquee><br/><marquee direction=\"left\" scrollamount=\"8\" width=\"800px\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /\'&nbsp;&nbsp;&nbsp;&nbsp; (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ,</marquee><br/><marquee direction=\"left\" scrollamount=\"8\" width=\"800px\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /\'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; )&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .\' `;</marquee><br/><marquee direction=\"left\" scrollamount=\"8\" width=\"800px\">&nbsp;&nbsp;&nbsp;&nbsp; o&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _.-~~~~\'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ``---..&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .\'&nbsp;&nbsp;&nbsp;&nbsp; ; FISH ARE FRIENDS</marquee><br/><marquee direction=\"left\" scrollamount=\"8\" width=\"800px\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _.--\'&nbsp;&nbsp;&nbsp;&nbsp; &deg;)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ``--....\'&nbsp;&nbsp;&nbsp;&nbsp; .\' NOT FOOD</marquee><br/><marquee direction=\"left\" scrollamount=\"8\" width=\"800px\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; )).&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `-._&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;</marquee><br/><marquee direction=\"left\" scrollamount=\"8\" width=\"800px\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `vvvvvvv-)-....._.-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `-.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ...--\'-.\'.</marquee><br/><marquee direction=\"left\" scrollamount=\"8\" width=\"800px\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `^^^^^\'-------.....`-._.\'----... .\'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `.;</marquee><br/><marquee direction=\"left\" scrollamount=\"8\" width=\"800px\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `-`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `&nbsp;&nbsp;</marquee><br/><marquee direction=\"left\" scrollamount=\"12\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"27\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"16\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"31\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"11\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"24\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"18\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"18\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"2\" width=\"800px\">daddy? ;-; <&deg;))><</marquee><br/><marquee direction=\"left\" scrollamount=\"11\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"22\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"14\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"24\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"20\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"14\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"4\" width=\"800px\"><><</marquee><br/><marquee direction=\"left\" scrollamount=\"6\" width=\"800px\"><><</marquee><br/><center>directed by: walt disney<br/>hd remake by: Inferno<br/></center></marquee>')
  	},
-		books: function() {
-			this.reply('!showimage https://i.ytimg.com/vi/fXms3agi1Cs/maxresdefault.jpg, 600, 400');
+	books: function() {
+		this.reply('!showimage https://i.ytimg.com/vi/fXms3agi1Cs/maxresdefault.jpg, 600, 400');
 	},
 	nword: function() {
-		this.reply('!htmlbox <img src=https://i.ytimg.com/vi/od2FTb00XH4/maxresdefault.jpg width=400 height=300');
+		this.reply('!htmlbox <img src=http://i.imgur.com/HnEafqh.jpg width=400 height=300');
 	},
 	lost: function() {
 		this.reply('!htmlbox [20:45] Lost Cause 146: Explain these and who is nicholas johnson http://pastebin.com/6sGkiKYm http://pastebin.com/eCTFhcP0<br>[20:46] ~Salandit: no and thats none of your business<br>[20:47] Lost Cause 146: Hmph<br>[20:47] Lost Cause 146: I see how it is<br>[20:53] Lost Cause 146: Then youll have to take them from me<br>[21:01] Lost Cause 146: What do you think you are<br>[21:01] Lost Cause 146: A god?<br>[21:01] Lost Cause 146: Some sort of king?<br>[21:01] Lost Cause 146: I wont stand for it<br>[21:03] Lost Cause 146: I wont sit there and watch you play with them like toys<br>[21:03] Lost Cause 146: Ill take a stand unlike the others<br>[21:03] Lost Cause 146: I dont care what you think and I dont care what you say you will do');
@@ -310,8 +317,9 @@ exports.commands = {
 	bnow: function() {
 		this.reply('!showimage https://i.ytimg.com/vi/SKbYn1ma_Jk/maxresdefault.jpg, 500, 300');
 	},
-	shady: function() {
-		this.reply('!showimage http://luciemarie.com/wp-content/uploads/2011/07/nerd-kid2.jpg, 400, 300');
+	shady: function(user, by) {
+		this.reply('/mute ' + by + ', bad person');
+		this.reply('/unmute ' + by);
 	},
 };
 /*
