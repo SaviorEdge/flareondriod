@@ -13,7 +13,7 @@ exports.commands = {
 		boney: function () {
 		this.restrictReply('!showimage http://i.imgur.com/MqHnW4m.png, 300, 300');
 	},
-
+	
 		potato: 'potato',
 		potato: 'danktrump',
 		potato: 'potatotrump',
@@ -35,6 +35,15 @@ exports.commands = {
 		darkeevee:'darkeevee',
 		darkeevee: function() {
 		this.restrictReply('!showimage http://orig04.deviantart.net/d2b3/f/2012/092/1/8/darkrai_eevee_sprite_by_sandy19801-d4urc18.png, 300, 300')
+	},
+		fire: function() {
+		this.reply('ahhhhhh its a fire!');
+		this.restrictReply('/me looks at github');
+		this.reply('Merge Pull Request');
+		this.restrictReply('/me clicks');
+		this.reply('okay now i shall leave');
+		this.restrictReply('/me dies in fire');
+		this.restrictReply('/me cries what a world');
 	},
 		faze: function (arg) {
 		if (!arg) return this.reply('add a number for le no scope');
