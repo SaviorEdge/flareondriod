@@ -36,6 +36,12 @@ exports.commands = {
 		darkeevee: function() {
 		this.restrictReply('!showimage http://orig04.deviantart.net/d2b3/f/2012/092/1/8/darkrai_eevee_sprite_by_sandy19801-d4urc18.png, 300, 300')
 	},
+		annoy: function(arg) {
+		if (!arg) this.reply('annoy someone special');
+		for (var i = 0; i < 20; i++) {
+			this.reply(Tools.stripCommands(arg) + ' im not touching you');
+		}	
+	},
 		fire: function() {
 		this.reply('ahhhhhh its a fire!');
 		this.restrictReply('/me looks at github');
