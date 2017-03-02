@@ -36,6 +36,14 @@ exports.commands = {
 		darkeevee: function() {
 		this.restrictReply('!showimage http://orig04.deviantart.net/d2b3/f/2012/092/1/8/darkrai_eevee_sprite_by_sandy19801-d4urc18.png, 300, 300')
 	},
+		faze: function (arg) {
+		if (!arg) return this.reply('add a number for le no scope');
+		if (!this.can('say')) return this.reply('u wish skrub');
+		this.reply('hahahahaha');
+		this.reply('i just ' + Tools.stripCommands(arg) + ' no scoped u skrub');
+		this.reply('faze clan');
+		this.reply('collateral');
+	},
 		plan: function (arg) {
 		if (!arg) return this.reply('Name someone ya idiot.');	
 		if (!this.can('say')) return;
