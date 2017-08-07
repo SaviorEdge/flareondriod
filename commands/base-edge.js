@@ -1,11 +1,28 @@
 /*
-*******Edge Commands*******
-***y'know that these are*** 
-****some dank and uh...****
-**worthless commands that**
-***that was created for ***
-**fun but thats the point**
-******of Flareondriod******
+
+                            ***********    ******        ***********      ***********
+                            **             **    ***     **        *      **
+                            **             **      **    **        *      **
+                            **             **      **    **               **
+                            *******        **      **    **               *******
+                            **             **      **    **      *****    **
+                            **             **      **    **        *      **
+                            **             **    ***     **        *      **
+                            ***********    ******        ***********      ***********
+
+
+***********    *********     ***       ***     ***       ***     **********     **      *     ******         *********
+**             *       *     *  *     *  *     *  *     *  *     *        *     * *     *     **    ***      *
+**             *       *     *   *   *   *     *   *   *   *     *        *     *  *    *     **      **     *
+**             *       *     *    * *    *     *    * *    *     **********     *   *   *     **      **     *
+**             *       *     *     *     *     *     *     *     *        *     *    *  *     **      **     *********
+**             *       *     *           *     *           *     *        *     *    *  *     **      **             *
+**             *       *     *           *     *           *     *        *     *     * *     **      **             *
+**             *       *     *           *     *           *     *        *     *     * *     **    ***              *
+***********    *********     *           *     *           *     *        *     *      **     ******         *********
+
+---y'know that these are...some dank uh...worthless commands that was created for fun but thats the point of FDriod---
+
 */
 
 exports.commands = {
@@ -13,7 +30,7 @@ exports.commands = {
 		boney: function () {
 		this.restrictReply('!showimage http://i.imgur.com/MqHnW4m.png, 300, 300');
 	},
-	
+
 		potato: 'potato',
 		potato: 'danktrump',
 		potato: 'potatotrump',
@@ -40,7 +57,7 @@ exports.commands = {
 		if (!arg) this.reply('annoy someone special');
 		for (var i = 0; i < 20; i++) {
 			this.reply(Tools.stripCommands(arg) + ' im not touching you');
-		}	
+		}
 	},
 		fire: function() {
 		this.reply('ahhhhhh its a fire!');
@@ -60,7 +77,7 @@ exports.commands = {
 		this.reply('collateral');
 	},
 		plan: function (arg) {
-		if (!arg) return this.reply('Name someone ya idiot.');	
+		if (!arg) return this.reply('Name someone ya idiot.');
 		if (!this.can('say')) return;
 		this.reply('yo ' + Tools.stripCommands(arg) + ' guess what');
 		this.restrictReply('/me hates you');
@@ -359,7 +376,7 @@ exports.commands = {
 	duel: function() {
 		this.reply('!showimage http://cdn.smosh.com/sites/default/files/2016/05/dat-boi-memes-boy-who-lived.jpg, 400, 400');
 	},
-	
+
 };
 /*
 // dont worry http://hastebin.com/ciqoriyico.sm
