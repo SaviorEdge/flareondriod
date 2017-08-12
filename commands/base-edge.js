@@ -376,6 +376,9 @@ exports.commands = {
 	duel: function() {
 		this.reply('!showimage http://cdn.smosh.com/sites/default/files/2016/05/dat-boi-memes-boy-who-lived.jpg, 400, 400');
 	},
+	4: function() {
+		this.reply('!showimage http://i.imgur.com/wX1GMMS.png, 400, 300')
+	}
 
 };
 /*

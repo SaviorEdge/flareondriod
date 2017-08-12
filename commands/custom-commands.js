@@ -12,13 +12,13 @@ exports.commands = {
         }
         else if(a==="list")
         {
-					this.reply('!htmlbox <div style="background-color: #000; color: #fff; border: 3px solid #fff; font-family: comicsansms,ubuntu;"><center><font size=5>Custom Commands</font><br><div style="width: 95%"><font size=2>Boney | Potato | Eevee | Beerus | DarkEevee | Die | TPoll (random or tier) | DankTrump | Pawwz | db | eggsandlegs | Cena | Pikachu | Diancie | Flareon | Sans | God | WhoAmI | Dance | Punish | Boof | Lopunny | 9 | summon - leave | hi/hey | jump | btahb | dank | dankharambe | numel | vapenation | green | windows | dancing | youareanidiot | face | 7 | cell | 666 | bucks | temmie | afk - back | spheal | calm | poliswag | chill | ded | overcomb | harambeharrison | squiddab | greendance | bravo | chickenfame | dog | smile | nemo | books | nword | lost | bnow | shady | plan | highnoot | nootfather | nooty | comingtotheaters | duel | faze | fire | annoy</font></div><br></center></div>');
+					this.reply('!htmlbox <div style="background-color: #000; color: #fff; border: 3px solid #fff; font-family: comicsansms,ubuntu;"><center><font size=5>Custom Commands</font><br><div style="width: 95%"><font size=2>Boney | Potato | Eevee | Beerus | DarkEevee | Die | TPoll (random or tier) | DankTrump | Pawwz | db | eggsandlegs | Cena | Pikachu | Diancie | Flareon | Sans | God | WhoAmI | Dance | Punish | Boof | Lopunny | 9 | summon - leave | hi/hey | jump | btahb | dank | dankharambe | numel | vapenation | green | windows | dancing | youareanidiot | face | 7 | cell | 666 | bucks | temmie | afk - back | spheal | calm | poliswag | chill | ded | overcomb | harambeharrison | squiddab | greendance | bravo | chickenfame | dog | smile | nemo | books | nword | lost | bnow | shady | plan | highnoot | nootfather | nooty | comingtotheaters | duel | faze | fire | annoy | 4</font></div><br></center></div>');
         }
         else if(a==="text")
         {
 					this.restrictReply('Custom Commands (1): Boney | Potato | Eevee | Beerus | DarkEevee | Die | TPoll (random | tier) | DankTrump | Pawwz | db | eggsandlegs | Cena | Pikachu | Diancie | Flareon | Sans | God | WhoAmI | Whereisedge | Dance | Punish | Boof | Lopunny | 9 | summon - leave'),
 					this.restrictReply('Custom Commands (2): hi/hey | jump | btahb | dank | dankharambe | numel | vapenation | green | windows | dancing | youareanidiot | face | 7 | cell | 666 | bucks | temmie | afk - back | spheal | bnowlin | calm | poliswag | chill | ded | overcomb'),
-					this.restrictReply('Custom Commands (3): harambeharrison | squiddab | greendance | bravo | chickenfame | dog | smile | nemo | books | nword | lost | bnow | shady | plan | highnoot | nootfather | nooty | comingtotheaters | duel | faze | fire | annoy');
+					this.restrictReply('Custom Commands (3): harambeharrison | squiddab | greendance | bravo | chickenfame | dog | smile | nemo | books | nword | lost | bnow | shady | plan | highnoot | nootfather | nooty | comingtotheaters | duel | faze | fire | annoy | 4');
         }
 /* ---Might be used later, links to ghostbin for a list.---
 			else if(a==="link")
