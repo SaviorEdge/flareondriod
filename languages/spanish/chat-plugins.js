@@ -192,6 +192,26 @@ exports.translations = {
 			'err': 'Hay un problema, intenta este comando en unos minutos',
 			'err2': 'Pokemon no encontrado',
 			'err3': 'No se encontraron movimientos'
-		}
+		},
+		/*
+		*	WiFi Gift Shop
+		*/
+		wgs: {
+			'u1': 'Uso correcto',
+			'u2': '[id], [cita]',
+			'empty': 'La base de datos está vacía',
+			'noid': 'Debes especificar un id correcto',
+			'quote': 'Cita',
+			'n': 'no existe',
+			'd': 'ha sido eliminado',
+			'already': 'ya existe',
+			'modified': 'ha sido modificado',
+			'created': 'ha sido creado'
+		},
+		confirmations: {
+			'empty': 'La base de datos está vacía',
+			'list': 'Lista de citas',
+			'err': 'Error: no se pudo subir la lista de citas a Hastebin'
+		},
 	}
 };

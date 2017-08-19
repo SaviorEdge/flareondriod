@@ -189,6 +189,26 @@
 			'err': 'C\'è stato un errore, riprova più tardi',
 			'err2': 'Pokemon non trovato',
 			'err3': 'Nessuna mossa trovata'
-		}
+		},
+		/*
+		*	Wifi Gift Shop
+		*/
+		wgs: {
+			'u1': 'Usage',
+			'u2': '[id], [citazione]',
+			'empty': 'Database è vuoto',
+			'noid': 'È necessario specificare un documento d\'identità valido',
+			'quote': 'Citazione',
+			'n': 'non esiste',
+			'd': 'è stato eliminato con successo',
+			'already': 'esiste già',
+			'modified': 'è stato modificato con successo',
+			'created': 'è stato creato con successo'
+		},
+		confirmations: {
+			'empty': 'Elenco di citazioni è vuota',
+			'list': 'Lista di citazioni',
+			'err': 'Errore: non è riuscito a caricare le virgolette per Hastebin'
+		},
 	}
 };

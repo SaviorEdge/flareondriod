@@ -189,6 +189,26 @@
 			'err': 'Une erreur est survenue, essayez à nouveau plus tard',
 			'err2': 'Pokémon introuvable',
 			'err3': 'Aucun mouvement trouvé'
-		}
+		},
+		/*
+		*	Wifi Gift Shop
+		*/
+		wgs: {
+			'u1': 'Usage',
+			'u2': '[id], [quote]',
+			'empty': 'Base de données est vide',
+			'noid': 'Vous devez spécifier un identifiant valide',
+			'quote': 'Quote',
+			'n': 'n\'existe pas',
+			'd': 'a été supprimé avec succès',
+			'already': 'existe déjà',
+			'modified': 'a été modifié avec succès',
+			'created': 'a été créé avec succès'
+		},
+		confirmations: {
+			'empty': 'Liste des quotes est vide',
+			'list': 'Liste des quotes',
+			'err': 'Erreur : Je ne peux pas télécharger les quotes sur hastebin'
+		},
 	}
 };

@@ -189,6 +189,26 @@
 			'err': 'Ein Fehler ist aufgetreten. Versuche es später nochmal',
 			'err2': 'Pokemon nicht gefunden',
 			'err3': 'Keine Attacken gefunden'
-		}
+		},
+		/*
+		*	WiFi Gift Shop
+		*/
+		wgs: {
+			'u1': 'Usage',
+			'u2': '[id], [zitat]',
+			'empty': 'Datenbank ist leer',
+			'noid': 'müssen Sie eine gültige ID angeben',
+			'quote': 'Zitat',
+			'n': 'existiert nicht',
+			'd': 'wurde erfolgreich gelöscht',
+			'already': 'ist bereits vorhanden',
+			'modified': 'wurde erfolgreich geändert',
+			'created': 'erfolgreich erstellt wurde'
+		},
+		confirmations: {
+			'empty': 'Liste der Zitate ist leer',
+			'list': 'Liste der Zitate',
+			'err': 'Fehler: Fehler beim Anführungszeichen hochladen, um Hastebin'
+		},
 	}
 };

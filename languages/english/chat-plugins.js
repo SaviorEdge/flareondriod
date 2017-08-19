@@ -189,6 +189,26 @@ exports.translations = {
 			'err': 'An error ocurred, try again later',
 			'err2': 'Pokemon not found',
 			'err3': 'No moves found'
-		}
+		},
+		/*
+		*	Wifi Gift Shop
+		*/
+		wgs: {
+			'u1': 'Usage',
+			'u2': '[id], [quote]',
+			'empty': 'Database is empty',
+			'noid': 'You must specify a valid id',
+			'quote': 'Quote',
+			'n': 'does not exist',
+			'd': 'has been successfully deleted',
+			'already': 'already exists',
+			'modified': 'has been successfully modified',
+			'created': 'has been successfully created'
+		},
+		confirmations: {
+			'empty': 'List of quotes is empty',
+			'list': 'List of quotes',
+			'err': 'Error: failed to upload quotes to Hastebin'
+		},
 	}
 };
