@@ -1,32 +1,18 @@
-const quotesDataFile = AppOptions.data + 'wifigiftshop.json';
-const jokesDataFile = AppOptions.data + 'jokes.json';
+const wgsDataFile = AppOptions.data + 'wifigiftshop.json';
 
-var quotesFFM = new Settings.FlatFileManager(quotesDataFile);
-var jokesFFM = new Settings.FlatFileManager(jokesDataFile);
+var wgsFFM = new Settings.FlatFileManager(wgsDataFile);
 
-var quotes = {};
-var jokes = {};
+var wgs = {};
 
 try {
-	quotes = quotesFFM.readObj();
+	wgs = wgsFFM.readObj();
 } catch (e) {
 	errlog(e.stack);
-	error("Could not import quotes: " + sys.inspect(e));
+	error("Could not import wgs: " + sys.inspect(e));
 }
 
-try {
-	jokes = jokesFFM.readObj();
-} catch (e) {
-	errlog(e.stack);
-	error("Could not import jokes: " + sys.inspect(e));
-}
-
-var saveQuotes = function () {
-	quotesFFM.writeObj(quotes);
-};
-
-var saveJokes = function () {
-	jokesFFM.writeObj(jokes);
+var saveWGS = function () {
+	wgsFFM.writeObj(wgs);
 };
 
 var rand = function (obj) {
@@ -35,11 +21,11 @@ var rand = function (obj) {
 	return obj[keys[Math.floor(Math.random() * keys.length)]];
 };
 
-Settings.addPermissions(['quote', 'joke']);
+Settings.addPermissions(['wgs']);
 
 exports.commands = {
 	/*
-	* Quotes
+	* wgs
 	*/
 	confirmed: 'wgs',
 	ignorethiscauseitsimportantmate: 'wgs',
@@ -55,31 +41,31 @@ exports.commands = {
 			args.splice(0, 1);
 			var content = Tools.stripCommands(args.join(',').trim());
 			if (!content) return this.reply(this.trad('u1') + ": " + this.cmdToken + cmd + " " + this.trad('u2'));
-			if (quotes[id] && cmd !== "set") return this.reply(this.trad('quote') + ' "' + id + '" ' + this.trad('already'));
+			if (wgs[id] && cmd !== "set") return this.reply(this.trad('wgs') + ' "' + id + '" ' + this.trad('already'));
 			var text;
-			if (quotes[id]) {
-				text = this.trad('quote') + ' "' + id + '" ' + this.trad('modified');
+			if (wgs[id]) {
+				text = this.trad('wgs') + ' "' + id + '" ' + this.trad('modified');
 			} else {
-				text = this.trad('quote') + ' "' + id + '" ' + this.trad('created');
+				text = this.trad('wgs') + ' "' + id + '" ' + this.trad('created');
 			}
-			quotes[id] = content;
-			saveQuotes();
+			wgs[id] = content;
+			saveWGS();
 			this.sclog();
 			this.reply(text);
 		} else if (cmd === "delcon") {
 			if (!this.isRanked('admin')) return false;
 			var id = toId(arg);
 			if (!id) return this.reply('Please use a valid acceptant.');
-			if (!quotes[id]) return this.reply(this.trad('quote') + ' "' + id + '" ' + this.trad('n'));
-			delete quotes[id];
-			saveQuotes();
+			if (!wgs[id]) return this.reply(this.trad('wgs') + ' "' + id + '" ' + this.trad('n'));
+			delete wgs[id];
+			saveWGS();
 			this.sclog();
-			this.reply(this.trad('quote') + ' "' + id + '" ' + this.trad('d'));
+			this.reply(this.trad('wgs') + ' "' + id + '" ' + this.trad('d'));
 		} else if (cmd === "alsoignorethiscauseitsimportantmate") {
 			var id = toId(arg);
 			if (!id) return this.reply(this.trad('noid'));
-			if (!quotes[id]) return this.restrictReply(this.trad('quote') + ' "' + id + '" ' + this.trad('n'), 'quote');
-			return this.restrictReply(Tools.stripCommands(quotes[id]), "quote");
+			if (!wgs[id]) return this.restrictReply(this.trad('wgs') + ' "' + id + '" ' + this.trad('n'), 'wgs');
+			return this.restrictReply(Tools.stripCommands(wgs[id]), "wgs");
 		} else {
 			return this.restrictReply("Commands are: confirmed (add service) | delcon (delete service) | confirmations (hastebin the services)");
 		}
@@ -88,8 +74,8 @@ exports.commands = {
 	confirmations: function (arg, by, room, cmd) {
 		if (!this.isRanked('admin')) return false;
 		var data = '';
-		for (var i in quotes) {
-			data += i + ' provided the service of and to ' + quotes[i] + '\n';
+		for (var i in wgs) {
+			data += i + ' provided the service of and to ' + wgs[i] + '\n';
 		}
 		if (!data) return this.reply('Sorry ' + by + '...it is all gone');
 		Tools.uploadToHastebin('*****WiFi Confirmations*****\n' + data, function (r, link) {
@@ -102,7 +88,7 @@ exports.commands = {
 
 /* TODO:
 * FIx database names.
-* Quotes -> Con
+* wgs -> Con
 * Probably see if it crashes
 * Get rid of extra commands without it crashing
 */
