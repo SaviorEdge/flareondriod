@@ -87,8 +87,6 @@ exports.commands = {
 
 
 /* TODO:
-* FIx database names.
-* wgs -> Con
 * Probably see if it crashes
 * Get rid of extra commands without it crashing
 */
