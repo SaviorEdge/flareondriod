@@ -8,7 +8,7 @@ exports.commands = {
         var text = "";
         if(a==="")
         {
-					this.reply('Please use **list** (must be global bot, roomleader/globalleader, admin, or roomowner to show) __or__ **text** (Gives you a message like this for each command) after the command.')
+					this.reply('Please use **list** (must be global bot, roomleader/globalleader, admin, or roomowner to show) __or__ **text** (Gives you a message like this for each command) after the command __or__ **link** (Gives URL to official website).')
         }
         else if(a==="list")
         {
@@ -19,6 +19,10 @@ exports.commands = {
 					this.restrictReply('Custom Commands (1): Boney | Potato | Eevee | Beerus | DarkEevee | Die | TPoll (random | tier) | DankTrump | Pawwz | db | eggsandlegs | Cena | Pikachu | Diancie | Flareon | Sans | God | WhoAmI | Whereisedge | Dance | Punish | Boof | Lopunny | 9 | summon - leave'),
 					this.restrictReply('Custom Commands (2): hi/hey | jump | btahb | dank | dankharambe | numel | vapenation | green | windows | dancing | youareanidiot | face | 7 | cell | 666 | bucks | temmie | afk - back | spheal | bnowlin | calm | poliswag | chill | ded | overcomb'),
 					this.restrictReply('Custom Commands (3): harambeharrison | squiddab | greendance | bravo | chickenfame | dog | smile | nemo | books | nword | lost | bnow | shady | plan | highnoot | nootfather | nooty | comingtotheaters | duel | faze | fire | annoy | 4');
+        }
+        else if(a==="link")
+        {
+            this.restrictReply('https://lmaoedge.neocities.org/fdriod.html');
         }
 /* ---Might be used later, links to ghostbin for a list.---
 			else if(a==="link")
