@@ -5,7 +5,8 @@
 try {
 	require('sugar');
 
-	global.colors = require('colors');
+	global.colors = require('colors'); //Incase something breaks.
+	global.chalk = require('chalk');
 	global.sys = require('sys');
 	global.fs = require('fs');
 	global.path = require('path');
@@ -16,11 +17,11 @@ try {
 	process.exit(-1);
 }
 
-console.log((
+console.log(chalk.bold.hex('#ff9933')(
 	'-----------------------------------------------\n' +
 	'           Flareondriod\'s Terminal!           \n' +
 	'-----------------------------------------------\n'
-).yellow);
+));
 
 global.Tools = require('./tools.js');
 var cmdArgs = process.argv.slice(2);
@@ -354,7 +355,7 @@ Bot.on('renamefailure', function (e) {
 });
 
 Bot.on('rename', function (name, named) {
-	monitor('Bot nickname has changed: ' + (named ? name.green : name.yellow) + (named ? '' : ' [guest]'));
+	monitor('Bot nickname has changed: ' + (named ? chalk.hex('#5cd65c')(name) : chalk.hex('ffff33')(name)) + (named ? '' : ' [guest]'));
 	SecurityLog.log('Bot nickname has changed: ' + name + (named ? '' : ' [guest]'));
 	if (named) {
 		if (!Config.nick) {
@@ -469,21 +470,21 @@ var checkSystem = function () {
 	var issue = false;
 	status += 'Connection: ';
 	if (connected) {
-		status += 'connected'.green;
+		status += chalk.hex('#5cd65c')('connected');
 		status += ' | Nickname: ';
 		if (Bot.status.named) {
-			status += Bot.status.nickName.green;
+			status += chalk.hex('#5cd65c')(Bot.status.nickName);
 		} else if (retryingRename) {
-			status += Bot.status.nickName.yellow;
+			status += chalk.hex('#ffff33')(Bot.status.nickName);
 		} else {
-			status += Bot.status.nickName.red;
+			status += chalk.hex('#ff3333')(Bot.status.nickName);
 			issue = 'login';
 		}
 	} else if (reconnecting) {
-		status += 'retrying'.yellow;
+		status += chalk.hex('#ffff33')('retrying');
 	} else {
 		issue = 'connect';
-		status += 'disconnected'.red;
+		status += chalk.hex('#ff3333')('disconnected');
 	}
 	monitor(status + ' (' + Tools.getDateString() + ')', 'status');
 	if (issue) {
@@ -511,8 +512,8 @@ if (!AppOptions.testmode) {
 if (!AppOptions.testmode && Config.crashguard) {
 	process.on('uncaughtException', function (err) {
 		SecurityLog.log("CRASH: " + err.message + "\n" + err.stack);
-		error(("" + err.message).red);
-		errlog(("" + err.stack).red);
+		chalk.hex('#ff3333')(error(("" + err.message)));
+		chalk.hex('#ff3333')(errlog(("" + err.stack)));
 	});
 	ok("Crashguard enabled");
 }
@@ -536,7 +537,7 @@ if (!AppOptions.testmode && Config.watchconfig) {
 	ok("Watchconfig enabled");
 }
 
-console.log("\n-----------------------------------------------\n".yellow);
+console.log(chalk.bold.hex('#ff9933')("\n-----------------------------------------------\n"));
 
 //Connection
 if (AppOptions.testmode) {
