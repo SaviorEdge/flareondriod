@@ -5,6 +5,7 @@
 try {
 	require('sugar');
 	require('colors');
+	require('chalk')
 } catch (e) {
 	console.log('Installing dependencies...');
 	require('child_process').spawnSync('sh', ['-c', 'npm install --production'], {stdio: 'inherit'});
@@ -12,8 +13,9 @@ try {
 
 require('sugar');
 var colors = require('colors');
+var chalk = require('chalk');
 var readline = require('readline');
-var sys = require('sys');
+var util = require('util');
 var url = require('url');
 var http = require('http');
 var fs = require('fs');
@@ -67,9 +69,9 @@ function askUrl () {
 						}
 					}
 					console.log('---------------');
-					console.log('server: ' + data.host);
-					console.log('port: ' + data.port);
-					console.log('serverid: ' + data.id);
+					console.log(chalk.bold.hex('#ff9933')('server: ') + data.host);
+					console.log(chalk.bold.hex('#ff9933')('port: ') + data.port);
+					console.log(chalk.bold.hex('#ff9933')('serverid: ') + data.id);
 					console.log('---------------\n');
 					writeConfig(data.host, data.port, data.id);
 				} else {
@@ -79,14 +81,14 @@ function askUrl () {
 				}
 			});
 			res.on('error', function (err) {
-				console.log('ERROR: ' + sys.inspect(err));
+				console.log('ERROR: ' + util.inspect(err));
 				rl.close();
 				process.exit(-1);
 			});
 		});
 
 		req.on('error', function (err) {
-			console.log('ERROR: ' + sys.inspect(err));
+			console.log('ERROR: ' + util.inspect(err));
 			rl.close();
 			process.exit(-1);
 		});
@@ -129,7 +131,7 @@ function writeConfig (server, port, serverid) {
 			if (!status.port) conf.unshift("exports.port = " + port + ";");
 			if (!status.serverid) conf.unshift("exports.serverid = '" + serverid + "';");
 			fs.writeFileSync('./config.js', conf.join('\n'));
-			console.log("Done!".green + "\t" + "successfully created default config");
+			console.log(chalk.bold.hex('#5cd65c')("Done!") + "\t" + "successfully created default config");
 			rl.close();
 			return process.exit();
 		}
@@ -137,10 +139,10 @@ function writeConfig (server, port, serverid) {
 	});
 }
 
-console.log((
-	"\n-------------------------------------------\n" +
-	"       Pokemon-Showdown Servers Helper      \n" +
-	"-------------------------------------------\n"
-).yellow);
+console.log(chalk.bold.hex('#ff9933')(
+	"\n----------------------------------\n" +
+	"       Get Server Information!      \n" +
+	"----------------------------------\n"
+));
 
 askUrl();
