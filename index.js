@@ -7,7 +7,7 @@ try {
 
 	global.colors = require('colors'); //Incase something breaks.
 	global.chalk = require('chalk');
-	global.sys = require('sys');
+	global.util = require('util');
 	global.fs = require('fs');
 	global.path = require('path');
 	global.PSClient = require('./showdown-client.js');
@@ -263,7 +263,7 @@ Bot.on('connect', function (con) {
 			if (typeof Features[f].init === "function") Features[f].init();
 		} catch (e) {
 			errlog(e.stack);
-			error("Feature Crash: " + f + " | " + sys.inspect(e));
+			error("Feature Crash: " + f + " | " + util.inspect(e));
 			SecurityLog.log("FEATURE CRASH: " + f + " | " + e.message + "\n" + e.stack);
 		}
 	}
@@ -422,7 +422,7 @@ Bot.on('line', function (room, message, isIntro, spl) {
 			if (typeof Features[f].parse === "function") Features[f].parse(room, message, isIntro, spl);
 		} catch (e) {
 			errlog(e.stack);
-			error("Feature Crash: " + f + " | " + sys.inspect(e));
+			error("Feature Crash: " + f + " | " + util.inspect(e));
 			SecurityLog.log("FEATURE CRASH: " + f + " | " + e.message + "\n" + e.stack);
 			Features[f].disabled = true;
 			Features[f].parse = null;
@@ -465,7 +465,7 @@ ok('Bot object is ready');
 
 /* Global Monitor */
 
-var checkSystem = function () {
+var checkutiltem = function () {
 	var status = '';
 	var issue = false;
 	status += 'Connection: ';
@@ -504,7 +504,7 @@ var checkSystem = function () {
 	}
 };
 if (!AppOptions.testmode) {
-	var sysChecker = setInterval(checkSystem, 60 * 60 * 1000);
+	var utilChecker = setInterval(checkutiltem, 60 * 60 * 1000);
 	ok('Global monitor is working');
 }
 
