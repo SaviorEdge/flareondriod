@@ -13,7 +13,7 @@
 
 exports.server = '';
 
-exports.port = 80;
+exports.port = 8080;
 
 exports.serverid = '';
 
@@ -44,9 +44,9 @@ exports.watchconfig = true;
 * Login Details
 */
 
-exports.nick = '';
+exports.nick = 'Flareondriod';
 
-exports.pass = '';
+exports.pass = '{insert}';
 
 exports.autoReloginDelay = 60 * 1000;
 
@@ -54,7 +54,7 @@ exports.autoReloginDelay = 60 * 1000;
 * Rooms to join
 */
 
-exports.rooms = 'public';
+exports.rooms = [''];
 
 /*
 * exports.rooms = 'all'; //For joining all rooms
@@ -78,7 +78,12 @@ exports.initCmds = ['|/avatar 211']; // Other commands (avatar, blockchallenges,
 */
 
 exports.exceptions = { 
-	// 'userid': true
+    'potatocomputer': true,
+    'horizonmidday': true,
+    'lostcause146': true,
+    'shinyhunter712': true,
+    'digitaledge': true,
+    'regna': true,
 };
 
 /*
@@ -125,7 +130,7 @@ exports.permissionExceptions = {
 	'custom':'+'
 };
 
-exports.botguide = "https://github.com/SaviorEdge/Flareondriod/blob/master/commands/README.md | Use .cc for all of my (current) custom commands!";
+exports.botguide = "Website for commands: https://lmaoedge.neocities.org/fdriod.html | Use .cc for all of my (current) custom commands!";
 
 //When you pm the bot but don't use a command, it replies you this message. Example: "Hi, I'm a bot. Use .help to view a command guide"
 //The var #USER is replaced with the username that pms it
@@ -347,7 +352,7 @@ exports.youtube = {
 */
 
 exports.chatLogger = {
-	rooms: ['tournaments','lobby','wifi','edgesroom','development','staff'],
+	rooms: ['tournaments','lobby','wifi','edgesroom','development','staff','pms','wifigiftshop','thehorizonleague'],
 	ignore: {'tournament': ['update', 'updateEnd'], 'formats': true, 'challstr': true, 'updateuser': true, 'queryresponse': true},
 	logIntroMessages: true,
 	ageOfLogs: 7 //in days (max age of logs, 0 to keep logs infinitely)
