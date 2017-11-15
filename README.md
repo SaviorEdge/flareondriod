@@ -98,10 +98,10 @@ Check the [configuration guide](https://github.com/SaviorEdge/flareondriod/blob/
 Credits
 -----------
 Owner:
- - [SaviorEdge] (https://github.com/SaviorEdge) (Current Owner)
+ - [SaviorEdge](https://github.com/SaviorEdge) (Current Owner)
 
 Special Thanks
 -----------
-**AS I DONT OWN THIS AND MAKE SIMPLE EDITS TO IT FOR MY OWN PERSONAL JOY THIS IS THE ORIGINAL OWNER! ALL CREDITS GOES TO HIM**
- - [Ecuacion](https://github.com/Ecuacion/) and his [amazing pokemon showdown node bot] (https://github.com/Ecuacion/Pokemon-Showdown-Node-Bot)
+**AS I DON'T OWN THIS AND MAKE SIMPLE EDITS TO IT FOR MY OWN PERSONAL JOY THIS IS THE ORIGINAL OWNER! ALL CREDITS GOES TO HIM**
+ - [Ecuacion](https://github.com/Ecuacion/) and his [amazing pokemon showdown node bot](https://github.com/Ecuacion/Pokemon-Showdown-Node-Bot)
  
